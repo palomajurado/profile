@@ -21,13 +21,7 @@ Te invito a ver mi perfil en [LinkedIn](https://www.linkedin.com/in/palomajurado
 ---
 
 <p align="center">
-  <img src="https://storage.googleapis.com/md-links/nuevo1bg.png">
-</p>
-<p align="center">
-  <img src="https://storage.googleapis.com/md-links/nuevo2.png">
-</p>
-<p align="center">
-  <img src="https://storage.googleapis.com/md-links/nuevo3.png">
+  <img src="https://media.giphy.com/media/LSjCntn9agZrzQ1oDM/giphy.gif">
 </p>
 
 ---
