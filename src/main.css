@@ -692,7 +692,7 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 1979px) {
+@media (max-width: 1980px) {
   .foto {
     margin-top: 92px !important;
   }
@@ -746,11 +746,9 @@ footer {
   .example-2 .title a {
     font-size: 1.9vw;
   }
-  .mainSectionTwo {
-    padding: 3% 7% 5%;
-  }
+
   .spanPortfolio {
-    margin-top: -29vw;
+    margin-top: -27vw;
   }
   .steps {
     padding: 0;
@@ -1044,7 +1042,7 @@ footer {
   }
   .spanPortfolio {
     font-size: 18vw !important;
-    margin-top: -34vw;
+    margin-top: -35vw;
   }
 
   .completeName {
