@@ -712,6 +712,9 @@ footer {
   .spanPortfolio {
     margin-top: -27vw;
   }
+  .icon {
+    top: 23%;
+  }
 }
 
 @media (min-width: 1366px) {
