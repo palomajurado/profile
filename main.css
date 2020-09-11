@@ -716,7 +716,7 @@ footer {
     font-size: 25px;
   }
   .spanPortfolio {
-    margin-top: -26vw;
+    margin-top: -27vw;
   }
 }
 
@@ -843,6 +843,12 @@ footer {
 }
 
 @media (max-height: 700px) and (min-width: 768px) {
+  /* .spanPortfolio {
+    margin-top: -26vw;
+  }
+  .card .text {
+    font-size: 2.3vw;
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -869,7 +875,7 @@ footer {
   .queDigoDeMi p {
     font-size: 1.3vw;
     margin-left: 0;
-    height: 399px;
+    height: 416px;
     letter-spacing: 0;
     padding-top: 50px;
     padding-left: 35px !important;
@@ -928,15 +934,85 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-}
-
-@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) {
   .completeName {
     margin: 0px;
   }
   .doveTwo {
     margin-top: 0px;
   }
+  .spanPortfolio {
+    margin-top: -26vw;
+  }
+  .improveTitle {
+    padding-top: 25px;
+  }
+  .jonathanTitle {
+    margin-top: -35px;
+    margin-bottom: 0px;
+  }
+  .listenFirst h2 {
+    font-size: 4vw;
+  }
+  .listenFirst p {
+    font-size: 2.5vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .example-2 .title a {
+    font-size: 5vw;
+  }
+  .card .text {
+    font-size: 3.3vw;
+  }
+  .queHagoTwo {
+    padding-bottom: 7px;
+    padding-top: 22px;
+  }
+  .queHagoTwo h2 {
+    font-size: 4vw;
+  }
+  .thirdPart p {
+    font-size: 0.9rem;
+  }
+  .thirdPart h2 {
+    font-size: 1.3rem;
+  }
+  .ultecnologies {
+    font-size: 11px;
+    padding-bottom: 0;
+  }
+  .queDigoDeMi p {
+    font-size: 1.95vw;
+    margin-left: 0;
+    height: 433px;
+    letter-spacing: 0;
+    padding-top: 100px;
+    padding-right: 54px;
+    text-align: justify;
+    margin-top: -100px;
+  }
+  .frenndParraf {
+    font-size: 2.5vw;
+  }
+  .foto {
+    margin-top: 10px !important;
+  }
+  .queDigoDeMi h1 {
+    font-size: 4.5vw;
+    margin-left: 49px;
+  }
+  .queDigoDeMi span {
+    font-size: 3.35vw;
+    margin-left: 105px;
+    margin-top: -10px;
+    padding-bottom: 12px;
+  }
+  .btnEmail {
+    font-size: 4.05vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -974,7 +1050,7 @@ footer {
   }
   .spanPortfolio {
     font-size: 18vw !important;
-    margin-top: -36vw;
+    margin-top: -34vw;
   }
 
   .completeName {
