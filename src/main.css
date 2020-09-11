@@ -740,6 +740,24 @@ footer {
     text-align: justify;
     padding-right: 50px;
   }
+  .ultecnologies {
+    font-size: 19.7px;
+  }
+  .example-2 .title a {
+    font-size: 1.9vw;
+  }
+  .mainSectionTwo {
+    padding: 3% 7% 5%;
+  }
+  .spanPortfolio {
+    margin-top: -29vw;
+  }
+  .steps {
+    padding: 0;
+  }
+  .frenndParraf {
+    padding: 0;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
@@ -749,11 +767,18 @@ footer {
   .card {
     padding: 2.7rem 0rem;
   }
+  .card .text {
+    font-size: 1.6vw;
+  }
+  .steps {
+    padding: 0;
+  }
   .example-2 .title a {
-    font-size: 2.4vw;
+    font-size: 2vw;
   }
   .ultecnologies {
     padding-bottom: 0;
+    font-size: 16px;
   }
   .spanPortfolio {
     font-size: 15vw !important;
@@ -803,12 +828,97 @@ footer {
     left: -40%;
     width: 16em;
   }
+  .frenndParraf {
+    padding: 0;
+  }
+  .thirdPart p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-height: 700px) and (min-width: 768px) {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .foto {
+    margin-top: 33px !important;
+  }
+  .queHagoTwo {
+    padding-bottom: 0;
+  }
+  .queHagoTwo h2 {
+    font-size: 4vw;
+  }
+  .queDigoDeMi h1 {
+    font-size: 4vw;
+    margin-left: 0;
+  }
+  .queDigoDeMi span {
+    font-size: 2.5vw;
+    margin-left: 0;
+    margin-top: -16px;
+    padding-left: 46px;
+    padding-bottom: 60px;
+  }
+  .queDigoDeMi p {
+    font-size: 1.3vw;
+    margin-left: 0;
+    height: 399px;
+    letter-spacing: 0;
+    padding-top: 50px;
+    padding-left: 35px !important;
+    margin-top: -87px;
+    padding-right: 40px;
+    text-align: justify;
+  }
+  .small,
+  small {
+    font-size: 70%;
+  }
+  .icon {
+    top: 25.5%;
+    left: -46%;
+    width: 16em;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+  .mainSectionTwo {
+    padding: 0%;
+  }
+  .queDicenDeMi h2 {
+    font-size: 4vw;
+  }
+  .title {
+    font-size: 20px !important;
+  }
+  .spanPortfolio {
+    margin-top: -38vw;
+  }
+  .card {
+    padding: 2.7rem 0;
+  }
+  .card .text {
+    font-size: 2.3vw;
+  }
+  .ultecnologies {
+    font-size: 13px;
+  }
+  .frenndParraf {
+    padding: 0;
+  }
+  .steps {
+    padding: 0;
+  }
+  .improveTitle {
+    padding-top: 28px;
+  }
+  .jonathanTitle {
+    margin-top: -58px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
