@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "animate.css": "^4.1.0",
+    "animate.css": "^4.1.1",
     "bootstrap": "^4.5.2",
     "hover.css": "^2.3.2",
     "jquery": "^3.5.1",
