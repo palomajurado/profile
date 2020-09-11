@@ -55,6 +55,7 @@ ul.nav li a:visited {
 
 .cv {
   cursor: pointer;
+  border: none;
 }
 .cv:hover {
   box-shadow: 3px 3px 3px #f59f8f;
@@ -379,6 +380,13 @@ footer {
   color: #f7b7ab;
   transition: 0.3s;
 }
+.youtube {
+  color: red !important;
+}
+.youtube:hover {
+  color: white !important;
+  text-shadow: 2px 2px 13px red;
+}
 .ipadGithub {
   color: dimgrey !important;
 }
@@ -498,8 +506,194 @@ footer {
   padding-top: 100px;
   margin-top: -100px;
 }
+/*Footer*/
+.icon {
+  top: 24%;
+  left: -30%;
+  width: 16em;
+  transform: translate(-50%, -50%);
+}
+
+/* Chat */
+
+.chat {
+  height: 7.75em;
+  color: #12395f;
+  overflow: hidden;
+  position: absolute;
+}
+
+.chat > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 5.0625em;
+  height: 2.625em;
+  margin-left: -1.25em;
+  transform: translate(-50%, -50%);
+  background-color: #7cddd0;
+  border: 0.25em solid;
+  background-size: 1.25em;
+  background-position: -0.0625em -0.1875em;
+  border-radius: 0.5em;
+  animation: slide1 2.43s infinite linear;
+}
+
+.chat > i:nth-child(even) {
+  margin: 3.875em 0 0 1.1825em;
+  transform: translate(-50%, -50%) scaleX(-1);
+  background-color: #efd9d5;
+  animation: slide2 2.43s infinite linear;
+}
+
+.chat > i:nth-child(3) {
+  margin-top: 7.75em;
+}
+
+.chat > i:nth-child(4) {
+  margin: 11.625em 0 0 1.1825em;
+}
+
+.chat i i:first-child {
+  position: absolute;
+  top: 100%;
+  left: 0.375em;
+  width: 1.6875em;
+  height: 1em;
+  overflow: hidden;
+}
+
+.chat i i:first-child:before,
+.chat i i:first-child:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 200%;
+  border-radius: 50% 50% 80%;
+  box-shadow: inset -0.875em 0 currentColor;
+}
+
+.chat i i:first-child:after {
+  right: 0.3125em;
+  bottom: 0.25em;
+  width: 80%;
+  transform: rotate(-18deg);
+  box-shadow: inset -0.375em 0 #85c9c3;
+}
+
+.chat i:nth-child(even) i:first-child:after {
+  box-shadow: inset -0.375em 0 #fccec6;
+}
+
+.chat i i:last-child,
+.chat i i:last-child:before,
+.chat i i:last-child:after {
+  content: "";
+  position: absolute;
+  top: 0.75em;
+  left: 0.5625em;
+  display: block;
+  width: 80%;
+  height: 0.125em;
+  transform-origin: 0 0;
+  background: currentColor;
+}
+
+.chat i:nth-child(3) i:last-child,
+.chat i:nth-child(3) i:last-child:before,
+.chat i:nth-child(3) i:last-child:after {
+  animation: draw 2.43s 1.215s infinite;
+}
+
+.chat i:nth-child(4) i:last-child,
+.chat i:nth-child(4) i:last-child:before,
+.chat i:nth-child(4) i:last-child:after {
+  transform-origin: 100% 0;
+  animation: draw 2.43s infinite;
+}
+
+.chat i i:last-child:before,
+.chat i i:last-child:after {
+  top: 0.5625em;
+  left: 0;
+  width: 100%;
+  box-shadow: none;
+}
+
+.chat i:nth-child(3) i:last-child:before,
+.chat i:nth-child(3) i:last-child:after {
+  animation-delay: 1.34s;
+}
+
+.chat i:nth-child(4) i:last-child:before {
+  animation-delay: 0.125s;
+}
+
+.chat i i:last-child:after {
+  top: 1.125em;
+  width: 35%;
+}
+
+.chat i:nth-child(even) i:last-child:after {
+  left: 2em;
+  width: 50%;
+}
+
+.chat i:nth-child(3) i:last-child:after {
+  animation-delay: 1.375s;
+}
+
+.chat i:nth-child(4) i:last-child:after {
+  animation-delay: 0.25s;
+}
+
+@keyframes slide1 {
+  0%,
+  5% {
+    transform: translate(-50%, 0);
+  }
+  18%,
+  52% {
+    transform: translate(-50%, -124%);
+  }
+  65%,
+  100% {
+    transform: translate(-50%, -248%);
+  }
+}
+
+@keyframes slide2 {
+  0%,
+  5% {
+    transform: translate(-50%, -248%) scaleX(-1);
+  }
+  18%,
+  52% {
+    transform: translate(-50%, -372%) scaleX(-1);
+  }
+  65%,
+  100% {
+    transform: translate(-50%, -496%) scaleX(-1);
+  }
+}
+
+@keyframes draw {
+  0%,
+  20% {
+    transform: scaleX(0);
+  }
+  27%,
+  100% {
+    transform: scaleX(1);
+  }
+}
+
 .sendEmail {
-  color: lightpink;
+  color: #f7b7ab;
   text-shadow: 5px 1px 18px white;
 }
 
@@ -605,6 +799,16 @@ footer {
   .foto {
     margin-top: 36px;
   }
+  /*footer div messages*/
+  .chat {
+    height: 10.77em;
+    overflow: hidden;
+  }
+  .icon {
+    top: 33.35%;
+    left: -40%;
+    width: 16em;
+  }
 }
 
 @media (max-height: 700px) and (min-width: 768px) {
@@ -626,6 +830,21 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .small,
+  small {
+    font-size: 50%;
+    font-weight: 400;
+  }
+  .ipadGithub {
+    color: white !important;
+    text-shadow: 2px 2px 10px grey;
+  }
+  .dateRollys {
+    display: none;
+  }
+  .chat {
+    display: none;
+  }
   .card {
     padding: 2.7rem 0rem;
   }
@@ -664,6 +883,7 @@ footer {
   }
   .steps {
     padding: 0px;
+    padding-bottom: 30px;
   }
   .improveTitle {
     padding-top: 10px;
@@ -702,6 +922,13 @@ footer {
   }
   .thirdPart h2 {
     padding-top: 0;
+    font-size: 1.7rem;
+  }
+  .thirdPart p {
+    font-size: 0.9rem;
+  }
+  .bgapi {
+    display: none;
   }
   .imgDisabledResponsive,
   .imgDisabledResponsiveDiv {
