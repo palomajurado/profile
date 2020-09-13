@@ -88,13 +88,13 @@ a i {
 .name h1 {
   font-family: "Cormorant Garamond", serif;
   line-height: 0.9;
-  font-size: 12vw;
+  font-size: 11vw;
   color: #f5e4e4;
   padding: 0px;
   margin: 0px;
 }
 .subTitle {
-  font-size: 11vw !important;
+  font-size: 9vw !important;
 }
 .spanPortfolio {
   font-size: 14vw !important;
@@ -237,7 +237,6 @@ footer {
 /*Card porfolio*/
 .cardPortfolio {
   background: #edf6f9;
-  /* margin: 50px; */
 }
 .ultecnologies {
   font-size: 18px;
@@ -719,7 +718,7 @@ footer {
     margin-top: -27vw;
   }
   .icon {
-    top: 23%;
+    top: 23.95%;
   }
 }
 
@@ -841,15 +840,6 @@ footer {
   .thirdPart p {
     font-size: 1rem;
   }
-}
-
-@media (max-height: 700px) and (min-width: 768px) {
-  /* .spanPortfolio {
-    margin-top: -26vw;
-  }
-  .card .text {
-    font-size: 2.3vw;
-  } */
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1011,9 +1001,6 @@ footer {
   .btnEmail {
     font-size: 4.05vw;
   }
-}
-
-@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
