@@ -88,16 +88,16 @@ a i {
 .name h1 {
   font-family: "Cormorant Garamond", serif;
   line-height: 0.9;
-  font-size: 11vw;
+  font-size: 8vw;
   color: #f5e4e4;
   padding: 0px;
   margin: 0px;
 }
 .subTitle {
-  font-size: 9vw !important;
+  font-size: 7vw !important;
 }
 .spanPortfolio {
-  font-size: 14vw !important;
+  font-size: 9vw !important;
   color: #9f7866;
   font-family: "Jonathan";
   margin-top: -29vw;
@@ -697,9 +697,25 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 1980px) {
+@media (min-width: 1366px) {
+  .card {
+    padding: 2.7rem 0rem;
+  }
+  .card .text {
+    font-size: 1.6vw;
+  }
+  .steps {
+    padding: 0;
+  }
+  .example-2 .title a {
+    font-size: 2vw;
+  }
+  .ultecnologies {
+    padding-bottom: 0;
+    font-size: 16px;
+  }
   .foto {
-    margin-top: 92px !important;
+    margin-top: 27px !important;
   }
   .example-2 .title a {
     font-size: 2vw;
@@ -709,20 +725,59 @@ footer {
     font-size: 1.3vw;
   }
   .title {
-    padding: 31px 0;
+    padding: 0;
   }
   .ultecnologies {
     font-size: 25px;
   }
+  .example-2 .button {
+    margin: 2em auto 0em;
+    font-size: 15px;
+  }
   .spanPortfolio {
-    margin-top: -27vw;
+    font-size: 10vw !important;
+    margin-top: -23.5vw !important;
+  }
+  .queHagoTwo {
+    padding-bottom: 0;
   }
   .icon {
     top: 23.95%;
   }
+  .name h1 {
+    font-size: 9vw;
+  }
+  .subTitle {
+    font-size: 7.5vw !important;
+  }
+  .queDigoDeMi p {
+    font-size: 1rem;
+    margin-left: 0;
+    height: 564px;
+    padding-left: 39px !important;
+    padding-top: 70px;
+    padding-right: 45px;
+    text-align: justify;
+    letter-spacing: 0em;
+    /* margin-top: -258px; */
+  }
+  .queDigoDeMi h1 {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+  .queDigoDeMi span {
+    font-size: 1.6rem;
+    margin-left: 38px;
+    font-family: Raleway, sans-serif;
+    margin-top: -20px;
+    padding-bottom: 43px;
+  }
+  .jonathanTitle {
+    margin-top: -60px;
+  }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1367px) and (max-width: 1980px) {
   .improveTitle {
     padding-top: 5px;
   }
@@ -737,6 +792,7 @@ footer {
   }
   .queDigoDeMi span {
     margin-left: 157px;
+    font-size: 2vw;
   }
   .queDigoDeMi h1 {
     font-size: 5vw;
@@ -744,9 +800,10 @@ footer {
   }
   .queDigoDeMi p {
     margin-left: 110px;
-    height: 950px;
+    height: 604px;
     text-align: justify;
     padding-right: 50px;
+    font-size: 1vw;
   }
   .ultecnologies {
     font-size: 19.7px;
@@ -756,7 +813,8 @@ footer {
   }
 
   .spanPortfolio {
-    margin-top: -27vw;
+    font-size: 10vw;
+    margin-top: -20vw !important;
   }
   .steps {
     padding: 0;
@@ -787,8 +845,8 @@ footer {
     font-size: 16px;
   }
   .spanPortfolio {
-    font-size: 15vw !important;
-    margin-top: -33vw;
+    font-size: 9vw !important;
+    margin-top: -27vw;
   }
   .improveTitle {
     padding-top: 0;
@@ -899,7 +957,7 @@ footer {
     font-size: 20px !important;
   }
   .spanPortfolio {
-    margin-top: -38vw;
+    margin-top: -31vw;
   }
   .card {
     padding: 2.7rem 0;
@@ -1037,7 +1095,7 @@ footer {
     margin-right: 0;
   }
   .spanPortfolio {
-    font-size: 18vw !important;
+    font-size: 17vw !important;
     margin-top: -35vw;
   }
 
@@ -1045,7 +1103,10 @@ footer {
     margin: 0px;
   }
   .name h1 {
-    font-size: 16vw;
+    font-size: 15vw;
+  }
+  .subTitle {
+    font-size: 13vw !important;
   }
 
   .frenndParraf {
